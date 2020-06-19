@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/忘记密码.css">
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <div class="header-logo">
+                <img src="../images/logo.13458c3c.png">
+            </div>
+            <div class="header-right">
+                <ul>
+                    <li><a href="新闻动态.html" class="li1 li2">
+                            新闻动态
+                        </a></li>
+                    <li><a href="大赛报名.html" class="li2">
+                            大赛报名
+                        </a></li>
+                    <li><a href="http://bbs.myhope365.com/" class="li2">
+                            天亮社区
+                        </a></li>
+                    <li><a href="关于我们.html" class="li2">
+                            关于我们
+                        </a></li>
+                    <li>
+                        <a href="#">
+                            <button class="btn">登录</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <section class="back">
+            <form action="user" method="post" target="iframe">
+                <div class="enter">
+                    <h3>忘记密码</h3>
+
+                    <div class="iphone">
+                        <img src="../images/shouji.png">
+                    </div>
+                    <input type="text" placeholder="请输入手机号" class="text1" id="phonenumber" required pattern="^1[3456789]\d{9}$">
+                    <div class="iphone">
+                        <img src="../images/shouji.png">
+                    </div>
+                    <input type="text" placeholder="请输入验证码" class="text2" id="code">
+                    <button class="btn2" id="btn2">获取验证码</button>
+                    <div class="iphone">
+                        <img src="../images/lock.png">
+                    </div>
+                    <input type="text" placeholder="请输入密码(4-20位)" class="text1" maxlength="20" id="password" minlength="4">
+                    <div class="iphone">
+                        <img src="../images/lock.png">
+                    </div>
+                    <input type="text" placeholder="请再次输入密码(4-20位)" class="text1" maxlength="20" minlength="4">
+                    <button class="btn1" id="btn1">更改密码</button>
+                    <a href="登录.html" class="local1">登录</a>
+                </div>
+                <iframe id="iframe" name="iframe" style="display:none;"></iframe>
+        </section>
+        <footer>
+            <div class="footer-href">
+                友情链接:
+                <a href="#" id="a1"></a>
+                <a href="#" id="a2"></a>
+                <a href="#" id="a3"></a>
+                <a href="#" id="a4"></a>
+                <a href="#" id="a5"></a>
+                <a href="#" id="a6"></a>
+            </div>
+            <span id="p1"></span>
+            <span id="p2"></span>
+            <p> 电子邮箱：<span id="p3"></span>技术支持:<span id="p4"></span></p>
+            <div class="footer-right">
+                <img src="../images/微信公众号.jpg">
+                <p class="gong">微信公众号</p>
+            </div>
+        </footer>
+
+    </body>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/忘记密码.js"></script>
+
+</html>

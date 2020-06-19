@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/注册.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="../images/logo.13458c3c.png">
+        </div>
+        <div class="header-right">
+            <ul>
+                <li><a href="新闻动态.html" class="li1 li2">
+                        新闻动态
+                    </a></li>
+                <li><a href="大赛报名.html" class="li2">
+                        大赛报名
+                    </a></li>
+                <li><a href="http://bbs.myhope365.com/" class="li2">
+                        天亮社区
+                    </a></li>
+                <li><a href="关于我们.html" class="li2">
+                        关于我们
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <button class="btn">登录</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="back">
+        <div class="student">
+            <h2>
+                <a href="#" class="bigstudent secelt">大学生</a>
+                <a href="#" class="bigteacher">老师</a>
+                <a href="#" class="bigstudent1">企业注册</a>
+            </h2>
+            <form action="user" method="post" target="iframe">
+                <div class="iphone">
+                    <img src="../images/zhanghao.png">
+                </div>
+
+                <input type="text" placeholder="请输入用户名(4-20位,禁止特殊符号)" class="text1" id="loginName" maxlength="20" minlength="4" required>
+                <div class="iphone">
+                    <img src="../images/ai242.png">
+                </div>
+                <input type="password" placeholder="请输入密码(4-20位)" class="text1" id="password" maxlength="20" minlength="4" required>
+                <div class="iphone">
+                    <img src="../images/ai242.png">
+                </div>
+                <input type="password" placeholder="请确认密码(重新输入上面密码)" class="text1" id="password1" required>
+                <div class="iphone">
+                    <img src="../images/zhanghao.png">
+                </div>
+                <input type="text" placeholder="(请输入真实姓名)" class="text1" id="userName" pattern="^[\u4E00-\u9FA5]{2,4}$" required>
+                <div class="iphone">
+                    <img src="../images/zhanghao.png">
+                </div>
+                <input type="text" placeholder="请输入身份证" class="text1" id="idNumber" pattern="(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)" required>
+                <div class="iphone">
+                    <img src="../images/youxiang.png">
+                </div>
+                <input type="email" placeholder="请输入邮箱" class="text1" id="email" required>
+                <div class="iphone">
+                    <img src="../images/xuexiao.png">
+                </div>
+                <input type="text" placeholder="请输入学校" class="text1" id="school" required>
+                <div class="iphone">
+                    <img src="../images/xuexiao.png">
+                </div>
+                <input type="text" placeholder="请输入专业" class="text1" id="profession" required>
+                <div class="iphone">
+                    <img src="../images/xuexiao.png">
+                </div>
+                <input type="text" placeholder="请输入年级" class="text1" id="grade" required>
+                <div class="iphone">
+                    <img src="../images/shouji.png">
+                </div>
+                <input type="text" placeholder="请输入手机号" class="text1" id="phonenumber" required pattern="^1[3456789]\d{9}$">
+                <div class="iphone">
+                    <img src="../images/shouji.png">
+                </div>
+                <input type="text" placeholder="请输入验证码" class="text2" id="code">
+                <button class="btn1" id="btn2">获取验证码</button>
+                <button class="btnn" id="btnn">注册成功</button>
+                <a href="登录.html" class="local1">登录</a>
+                <iframe id="iframe" name="iframe" style="display:none;"></iframe>
+        </div>
+
+        <div class="teacher">
+            <h2>
+                <a href="#" class="bigstudent secelt">大学生</a>
+                <a href="#" class="bigteacher">老师</a>
+                <a href="#" class="bigstudent1">企业注册</a>
+            </h2>
+            <form action="user" method="post" target="iframe">
+
+                <div class="iphone">
+                    <img src="../images/zhanghao.png">
+                </div>
+                <input type="text" placeholder="请输入用户名(4-20位,禁止特殊符号)" class="text1" maxlength="20" minlength="4" required>
+                <div class="iphone">
+                    <img src="../images/ai242.png">
+                </div>
+                <input type="text" placeholder="请输入密码(4-20位)" class="text1" maxlength="20" minlength="4" required>
+                <div class="iphone">
+                    <img src="../images/ai242.png">
+                </div>
+                <input type="text" placeholder="请确认密码(重新输入上面密码)" class="text1" required>
+                <div class="iphone">
+                    <img src="../images/zhanghao.png">
+                </div>
+                <input type="text" placeholder="(请输入真实姓名)" class="text1">
+                <div class="iphone">
+                    <img src="../images/zhanghao.png">
+                </div>
+                <input type="text" placeholder="请输入身份证" class="text1">
+                <div class="iphone">
+                    <img src="../images/shouji.png">
+                </div>
+                <input type="email" placeholder="请输入邮箱" class="text1">
+                <div class="iphone">
+                    <img src="../images/xuexiao.png">
+                </div>
+                <input type="text" placeholder="请输入学校" class="text1">
+                <div class="iphone">
+                    <img src="../images/xuexiao.png">
+                </div>
+                <input type="text" placeholder="请输入研究方向" class="text1">
+                <div class="iphone">
+                    <img src="../images/xuexiao.png">
+                </div>
+                <input type="text" placeholder="请输入职称" class="text1">
+                <div class="iphone">
+                    <img src="../images/shouji.png">
+                </div>
+                <input type="text" placeholder="请输入手机号" class="text1" id="phonenumber1" pattern="^((13[0-9])|(14[5,7,9])|(15[^4])|(18[0-9])|(17[0,1,3,5,6,7,8]))\d{8}$" required>
+                <div class="iphone">
+                    <img src="../images/shouji.png">
+                </div>
+                <input type="text" placeholder="请输入验证码" class="text2">
+                <button class="btn1" id="btn1">获取验证码</button>
+                <button class="btnn">注册成功</button>
+                <a href="登录.html" class="local1">登录</a>
+                <iframe id="iframe" name="iframe" style="display:none;"></iframe>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-href">
+            友情链接:
+            <a href="#" id="a1"></a>
+            <a href="#" id="a2"></a>
+            <a href="#" id="a3"></a>
+            <a href="#" id="a4"></a>
+            <a href="#" id="a5"></a>
+            <a href="#" id="a6"></a>
+        </div>
+        <span id="p1"></span>
+        <span id="p2"></span>
+        <p> 电子邮箱：<span id="p3"></span>技术支持:<span id="p4"></span></p>
+        <div class="footer-right">
+            <img src="../images/微信公众号.jpg">
+            <p class="gong">微信公众号</p>
+        </div>
+    </footer>
+</body>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../js/注册.js"></script>
+
+</html>

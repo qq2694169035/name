@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/登录.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="../images/logo.13458c3c.png">
+        </div>
+        <div class="header-right">
+            <ul>
+                <li><a href="新闻动态.html" class="li1 li2">
+                        新闻动态
+                    </a></li>
+                <li><a href="大赛报名.html" class="li2">
+                        大赛报名
+                    </a></li>
+                <li><a href="http://bbs.myhope365.com/" class="li2">
+                        天亮社区
+                    </a></li>
+                <li><a href="关于我们.html" class="li2">
+                        关于我们
+                    </a></li>
+                <li class="liii">
+                    <a href="#">
+                        <button class="btn">登录</button>
+                    </a>
+                </li>
+                <li style="display: none;">
+                    <a href="个人中心.html" class="li2 lii"> 
+                        个人中心
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="back">
+        <div class="enter">
+            <h2>星火创新创业服务平台</h2>
+            <div class="box">
+                <a href="#" class="toline secelt">账号登录</a>
+                <a href="#" class="codline">手机登录</a>
+            </div>
+
+            <div class="locald">
+                <div class="boxx1">
+                    <img src="../images/zhanghao.png" class="zhangpic">
+                </div><input type="text" placeholder="请输入用户名" class="zhanghao" id="zhanghao">
+
+                <div class="boxx">
+                    <img src="../images/mima.png" class="mipic">
+                </div>
+                <input type="password" placeholder="请输入密码" class="mima" id="mima">
+                <button class="btn1" id="btn4">登录</button>
+            </div>
+            <form action="user" method="post" target="iframe">
+                <div class="phoned">
+                    <div class="boxx1">
+                        <img src="../images/zhanghao.png" class="zhangpic">
+                    </div><input type="text" placeholder="请输入手机号" class="zhanghao" id="zhanghao1" required pattern="^((13[0-9])|(14[5,7,9])|(15[^4])|(18[0-9])|(17[0,1,3,5,6,7,8]))\d{8}$">
+
+                    <div class="boxx">
+                        <img src="../images/mima.png" class="mipic"> </div>
+                    <input type="password" placeholder="请输入验证码" class="mima1" id="mima1">
+                    <button class="btnn" id="btnn">获取验证码</button>
+                    <button class="btn1" id="btn5">登录</button>
+
+                </div>
+                <iframe id="iframe" name="iframe" style="display:none;"></iframe>
+                <a href="忘记密码.html" class="toline1">忘记密码</a>
+                <a href="注册.html" class="codline1">注册</a>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <div style="clear: both;"></div>
+    <footer>
+        <div class="footer-href">
+            友情链接:
+            <a href="#" id="a1"></a>
+            <a href="#" id="a2"></a>
+            <a href="#" id="a3"></a>
+            <a href="#" id="a4"></a>
+            <a href="#" id="a5"></a>
+            <a href="#" id="a6"></a>
+        </div>
+        <span id="p1"></span>
+        <span id="p2"></span>
+        <p> 电子邮箱：<span id="p3"></span>技术支持:<span id="p4"></span></p>
+        <div class="footer-right">
+            <img src="../images/微信公众号.jpg">
+            <p class="gong">微信公众号</p>
+        </div>
+    </footer>
+
+</body>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../js/登录.js"></script>
+
+</html>

@@ -1,0 +1,413 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a:active {
+    text-decoration: none !important;
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* 头部 */
+
+header {
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid red; */
+}
+
+.header-logo {
+    height: 44px;
+    line-height: 44px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 75px;
+}
+
+.header-logo img {
+    height: 46px;
+    width: 359px;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right ul {
+    margin-right: 40px;
+}
+
+.header-right ul li {
+    width: 70px;
+    line-height: 60px;
+    float: left;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.header-right ul li a {
+    color: black;
+    height: 50px;
+    display: inline-block
+}
+
+.li1 {
+    color: #00cf8c !important;
+    border-bottom: 2px solid #00cf8c;
+}
+
+.li2:hover {
+    color: #00cf8c !important;
+    border-bottom: 2px solid #00cf8c;
+}
+
+.btn {
+    width: 80px;
+    height: 30px;
+    background-color: #00cf8c;
+    color: white;
+    border: 1px solid #00cf8c;
+    outline-style: none;
+}
+
+.back1 {
+    background: url(../images/创新创业大赛.jpg) center no-repeat;
+    height: 400px;
+}
+
+.middle-img {
+    width: 90%;
+    margin: auto;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.bottom {
+    width: 1200px;
+    margin: auto;
+    padding: 0 58px;
+    margin-bottom: 100px;
+}
+
+.back a {
+    font-size: 14px;
+    line-height: 28px;
+    color: #2d8cf0;
+}
+
+.top1 {
+    font-size: 18px;
+    margin-left: 45%;
+}
+
+.top2 {
+    font-size: 14px;
+    color: orangered;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.back-item {
+    background: #b8b5c2;
+    text-indent: 16px;
+    margin: 20px 0 10px 0;
+    height: 30px;
+    line-height: 30px;
+}
+
+.name1 {
+    padding-left: 15px;
+    font-weight: normal;
+}
+
+.name2 {
+    width: 200px;
+    display: inline-block;
+    height: 32px;
+    line-height: 1.5;
+    padding: 4px 7px;
+    font-size: 12px;
+    border: 1px solid #dcdee2;
+    border-radius: 4px;
+    color: #515a6e;
+    background-color: #fff;
+    position: relative;
+    outline-style: none;
+}
+
+#name1 {
+    display: inline-block;
+    width: 200px;
+    font-size: 12px;
+    color: #515a6e;
+}
+
+.name {
+    padding-left: 300px;
+    font-weight: normal;
+}
+
+#name2 {
+    font-weight: normal;
+}
+
+.innovate {
+    height: 64px;
+    width: calc(100% - 200px);
+    margin-top: 20px;
+    border: 1px solid #dcdee2;
+    border-radius: 4px;
+    vertical-align: top;
+    padding: 6px;
+    font-size: 12px;
+}
+
+.innovate1 {
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.innovate2 {
+    font-weight: normal;
+    margin-top: 20px;
+    margin-left: -17px;
+}
+
+.innovate3 {
+    font-weight: normal;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.box {
+    display: inline-block;
+    width: calc(100% - 200px);
+    height: 60px;
+    margin-top: 20px;
+    vertical-align: top;
+    border: 1px solid #dcdee2;
+}
+
+.session {
+    margin: auto;
+    line-height: 60px;
+    font-size: 14px;
+    outline-style: none;
+}
+
+.people {
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.people-name {
+    padding-left: 10px;
+    font-weight: normal;
+}
+
+.people-name1 {
+    padding-left: 2px;
+    font-weight: normal;
+}
+
+.people-put {
+    width: 200px;
+    display: inline-block;
+    height: 32px;
+    line-height: 1.5;
+    padding: 4px 7px;
+    font-size: 12px;
+    border: 1px solid #dcdee2;
+    border-radius: 4px;
+    color: #515a6e;
+    background-color: #fff;
+    position: relative;
+    outline-style: none;
+    margin-left: 20px;
+}
+
+.people-put1 {
+    width: 200px;
+    display: inline-block;
+    height: 32px;
+    line-height: 1.5;
+    padding: 4px 7px;
+    font-size: 12px;
+    border: 1px solid #dcdee2;
+    border-radius: 4px;
+    color: #515a6e;
+    background-color: #fff;
+    position: relative;
+    outline-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#name3 {
+    font-weight: normal;
+}
+
+#gender1 {
+    display: inline-block;
+    width: 200px;
+    font-size: 12px;
+    color: #515a6e;
+    margin-left: 16px;
+    height: 32px;
+    margin: 20px 0 20px 16px;
+}
+
+#gender2 {
+    display: inline-block;
+    width: 200px;
+    font-size: 12px;
+    color: #515a6e;
+    margin-left: 16px;
+    height: 32px;
+    margin: 20px 0 20px 16px;
+}
+
+#gender3 {
+    display: inline-block;
+    width: 200px;
+    font-size: 12px;
+    color: #515a6e;
+    margin-left: 16px;
+    height: 32px;
+    margin: 20px 0 20px 16px;
+}
+
+.btn2 {
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 5px 15px 6px;
+    font-size: 12px;
+    border-radius: 4px;
+    /* border-color: white; */
+    border: 1px solid transparent;
+    outline-style: none;
+    margin-left: 43%;
+    margin-top: 55px;
+}
+
+.btn1 {
+    background-color: #2d8cf0;
+    cursor: pointer;
+    padding: 5px 15px 6px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    color: white;
+    outline-style: none;
+}
+
+footer {
+    width: 100%;
+    height: 140px;
+    background-color: #00cf8c;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.footer-href {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.footer-href a {
+    color: white;
+    margin-left: 10px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+.footer-right {
+    float: right;
+    margin-top: -85px;
+    margin-right: 141px;
+}
+
+.footer-right img {
+    width: 83px;
+}
+
+.gong {
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+#p1 {
+    font-size: 12px;
+}
+
+#p2 {
+    font-size: 12px;
+}
+
+#jo {
+    margin-left: 294px;
+    font-weight: normal;
+}
+
+#jo1 {
+    margin-left: 298px;
+    font-weight: normal;
+}
+
+#jo2 {
+    margin-left: 297px;
+    font-weight: normal;
+}
+
+#num {
+    margin-left: 269px;
+    font-weight: normal;
+}
+
+#num1 {
+    margin-left: 295px;
+    font-weight: normal;
+}
+
+#num2 {
+    margin-left: 266px;
+    font-weight: normal;
+}
+
+#num3 {
+    margin-left: 266px;
+    font-weight: normal;
+}
+
+#teach {
+    margin-left: 303px;
+    font-weight: normal;
+}

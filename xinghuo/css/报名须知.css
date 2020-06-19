@@ -1,0 +1,171 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* 头部 */
+
+header {
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid red; */
+}
+
+.header-logo {
+    height: 44px;
+    line-height: 44px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 75px;
+}
+
+.header-logo img {
+    height: 46px;
+    width: 359px;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right ul {
+    margin-right: 40px;
+}
+
+.header-right ul li {
+    width: 70px;
+    line-height: 60px;
+    float: left;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.header-right ul li a {
+    color: black;
+    height: 50px;
+    display: inline-block
+}
+
+.li1 {
+    color: #00cf8c !important;
+    border-bottom: 2px solid #00cf8c;
+}
+
+.li2:hover {
+    color: #00cf8c !important;
+    border-bottom: 2px solid #00cf8c;
+}
+
+.btn {
+    width: 80px;
+    height: 30px;
+    background-color: #00cf8c;
+    color: white;
+    border: 1px solid #00cf8c;
+    outline-style: none;
+}
+
+.middle-img {
+    width: 90%;
+    margin: auto;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.bottom {
+    width: 1200px;
+    margin: auto;
+    padding: 0 58px;
+    margin-bottom: 100px;
+}
+
+.back a {
+    font-size: 14px;
+    line-height: 28px;
+    color: #2d8cf0;
+}
+
+.back1 {
+    background: url(../images/创新创业大赛.jpg) center no-repeat;
+    height: 400px;
+}
+
+.game {
+    font-size: 18px;
+    color: rgb(42, 33, 71);
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+}
+
+footer {
+    width: 100%;
+    height: 140px;
+    background-color: #00cf8c;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.footer-href {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.footer-href a {
+    color: white;
+    margin-left: 10px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+.footer-right {
+    float: right;
+    margin-top: -85px;
+    margin-right: 141px;
+}
+
+.footer-right img {
+    width: 83px;
+}
+
+.gong {
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+#p1 {
+    font-size: 12px;
+}
+
+#p2 {
+    font-size: 12px;
+}
